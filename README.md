@@ -212,13 +212,30 @@ http localhost:8081/orders/1
 
 ## 체크포인트 구현
 
-# Saga(Pub / Sub)
-  pub 예제코드
-![image](https://user-images.githubusercontent.com/70885079/212694556-84b441be-abeb-40d6-abf9-47a93f5c3894.png)
+# 1.Saga(Pub / Sub)
+ -   pub 예제코드
+ 
+![image](https://user-images.githubusercontent.com/70885079/212743239-0ef47a90-55a7-4fa9-be3e-b153ebf4950e.png)
 
-  sub 예제코드
-![image](https://user-images.githubusercontent.com/70885079/212695543-25c007da-783a-4f00-bb97-7c4a0d5a6f0c.png)
+ -  sub 예제코드
+ 
+![image](https://user-images.githubusercontent.com/70885079/212743405-0e497112-6cb3-4212-8e3e-7dc703c758ee.png)
 
+- 주문command
+
+![image](https://user-images.githubusercontent.com/70885079/212740239-022e781f-37e4-4ed6-a5a7-a04f02c5b3b6.png)
+
+# 2.CQRS
+
+ ![image](https://user-images.githubusercontent.com/70885079/212742003-38300795-c3b9-43c3-a01a-d054f5d9a128.png)
+ 
+ 
+ # 3.Compensation / Correlation
+ ![image](https://user-images.githubusercontent.com/70885079/212744068-6334b0d5-fee5-42ae-b708-174e4ca69d9b.png)
+ 
+ 주문이 완료되면 요리상태 업데이트
+ 
+ 
 
 
 ## 폴리글랏 퍼시스턴스
