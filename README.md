@@ -210,6 +210,16 @@ http localhost:8081/orders/1
 
 ```
 
+## 체크포인트 구현
+
+# Saga(Pub / Sub)
+  pub 예제코드
+![image](https://user-images.githubusercontent.com/70885079/212694556-84b441be-abeb-40d6-abf9-47a93f5c3894.png)
+
+  sub 예제코드
+![image](https://user-images.githubusercontent.com/70885079/212695543-25c007da-783a-4f00-bb97-7c4a0d5a6f0c.png)
+
+
 
 ## 폴리글랏 퍼시스턴스
 
